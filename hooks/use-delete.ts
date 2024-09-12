@@ -1,4 +1,4 @@
-import { useMutation, useSelf } from "@liveblocks/react";
+import { useMutation, useSelf } from "@liveblocks/react/suspense";
 
 export const useDeleteLayers = () => {
     const selection = useSelf((me) => me.presence.selection);
